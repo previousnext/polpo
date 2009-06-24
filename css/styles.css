@@ -1,0 +1,55 @@
+/*******************************
+
+	STYLES
+	
+	Generic styles for misc page elements.
+
+*******************************/
+
+a {
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+
+/*******************************
+	Header Region
+*******************************/
+
+#header h1 {
+	position:relative;
+	top:39px;
+}
+
+#header h1.break {
+	border-left:1px solid #FFF;
+	padding:0 0 0 14px;
+	margin-left:21px;
+	float:left;
+}
+
+#header img {
+	float:left;
+}
+
+.breadcrumb {
+	margin:4px 0 8px;
+	padding:0;
+}
+
+#pagebar h2 {
+	margin-bottom:10px;
+}
+
+
+
+/*******************************
+	Blocks
+*******************************/
+
+.block {
+	margin-bottom:21px;
+}

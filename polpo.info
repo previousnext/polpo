@@ -1,0 +1,27 @@
+name = Polpo
+description = A Drupal Admin Theme
+screenshot = screenshot.png
+version = 6.x-0.1-dev
+core = 6.x
+engine = phptemplate
+
+; Stylesheets
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/colour.css
+stylesheets[all][] = css/typography.css
+stylesheets[all][] = css/tabs.css
+stylesheets[all][] = css/wireframe.css
+stylesheets[all][] = css/styles.css
+stylesheets[all][] = css/css3.css
+stylesheets[all][] = css/table.css
+stylesheets[all][] = css/forms.css
+stylesheets[all][] = css/status.css
+
+; Regions
+regions[content] = Content
+regions[sidebar] = Sidebar
+regions[footer] = Footer
+
+; Settings
+features[] = favicon
+features[] = logo

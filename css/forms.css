@@ -1,0 +1,138 @@
+/*******************************
+
+	FORMS
+	
+	Delicious formatting for Drupal forms
+
+*******************************/
+
+
+/*******************************
+	Fieldsets
+*******************************/
+
+fieldset {
+	background:#f1f1f1;
+	margin:20px 0 41px;
+	padding:9px;
+	position:relative;
+}
+
+legend {
+	margin:-20px 0 0 -6px;
+	position: absolute;
+	top:-2px;
+}
+
+html.js fieldset.collapsed {
+	background:none;
+}
+
+html.js fieldset.collapsed legend a {
+	background:transparent url(../img/collapsible.png) no-repeat scroll right center !important;
+}
+
+
+html.js fieldset.collapsible legend a {
+	background:transparent url(../img/expanded.png) no-repeat scroll right center;
+	padding:0 12px 0 0;
+}
+
+
+
+fieldset .form-item:nth-child(2) {
+	margin-top:0;
+}
+
+fieldset > *:last-child,
+fieldset .date-container:last-child .form-item,
+fieldset .user-admin-picture-radios > .form-item
+{
+	margin-bottom:0;
+} 
+
+/*******************************
+	Submit Buttons
+*******************************/
+
+.form-submit {
+	font-size:1.143em;
+	line-height:1.0em;
+	padding:8px 16px 6px;
+	font-weight:bold;
+	background:#006395;
+	color:#FFF;
+	margin-right:12px;
+	cursor:pointer;
+}
+
+#edit-submit {
+	background:#13a300;
+}
+
+#edit-preview {
+	background:#e1a900;
+}
+
+#edit-reset,
+#edit-delete
+{
+	background:#c00000;
+}
+
+
+
+/*******************************
+	Textareas
+*******************************/
+
+
+
+.form-text {
+	color:#333;
+	border:1px solid #999;
+	width:98% !important;
+	margin-bottom:4px;
+	font-size: 1.714em;
+	padding:4px;
+}
+
+.resizable-textarea {
+	width:98%;
+}
+
+.form-textarea {
+	border:1px solid #999;
+	font-size: 1.286em;
+	padding:4px;
+}
+
+
+/*******************************
+	Selects and other form items
+*******************************/
+
+.form-select {
+	font-size: 1.286em;
+	padding:0 6px;
+	margin-bottom:4px;
+}
+
+.form-checkboxes, .form-radios {
+	margin:10px 0 10px;
+}
+
+/*******************************
+	Other areas
+*******************************/
+
+.form-item {
+	margin:16px 0 24px;
+}
+
+.form-item label {
+	display:block;
+	font-weight:bold;
+	margin-bottom:4px;
+	color:#141414;
+}

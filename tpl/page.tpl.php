@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php print $language->language; ?>" lang="<?php print $language->language; ?>" dir="<?php print $language->dir; ?>">
+<head>
+<title><?php print $head_title; ?></title>
+  <?php print $head; ?>
+  <?php print $styles; ?>
+  <?php print $scripts; ?>
+</head>
+<body>
+	
+	<div id="header">
+		<?php if ($logo): ?><img src="<?php print $logo; ?>" alt="" id="logo" /><?php endif; ?>
+		<h1<?php if ($logo): ?> class="break"<?php endif; ?>><?php print $site_name; ?></h1>
+	</div>
+	
+	<?php if ($title): ?> 
+	<div id="pagebar">
+		<?php print $breadcrumb; ?>
+		<h2><?php print $title; ?></h2>
+		<?php print $tabs; ?>
+	</div>
+	<?php endif; ?>
+	
+	<?php if ($messages||$help): ?>
+	<div id="statusbar">
+		<?php print $messages; ?>
+		<?php print $help; ?>
+	</div>
+	<?php endif; ?>
+	
+	<div id="content">
+			<?php if ($sidebar): ?>
+			<div id="maincol">
+				<?php print $content; ?>
+			</div>
+			<div id="sidecol">
+				<?php print $sidebar; ?>
+			</div>
+		<?php else: ?>
+			<?php print $content; ?>
+		<?php endif; ?>	
+
+			<div id="footer">
+				<?php print $footer; ?>
+			</div>
+	
+	</div>
+	
+<?php print $closure; ?>
+</body>
+</html>

@@ -1,0 +1,57 @@
+/*******************************
+
+	STATUS
+	
+	Creates lovely status bar messages.
+
+*******************************/
+
+#statusbar a {
+	color: inherit;
+	font-weight:bold;
+}
+
+#statusbar .help,
+#statusbar .warning,
+#statusbar .status
+{
+	padding:10px 10px 10px 4.45%;
+	margin-bottom:12px;
+}
+
+.help {
+	background:#f0f7ff url(../img/icn_help.png) no-repeat 5px 5px;
+	border:1px solid #b8caef;
+	color:#135ca7;
+	padding-bottom:0 !important;
+	min-height:30px;
+}
+
+.help p {
+	margin-bottom:10px;
+}
+
+.help .more-help-link {
+	float:right;
+	margin-top:-20px;
+}
+
+
+#statusbar .status {
+	background:#d6ffc8 url(../img/icn_status.png) no-repeat 5px 5px;
+	border:1px solid #bbd2a9;
+	color: #1a3e04;
+}
+
+
+
+#statusbar .warning, div.warning {	
+	background:#fffad7 url(../img/icn_warning.png) no-repeat 5px 5px;
+	border:1px solid #cec3bc;
+	color: #93430c;
+}
+
+div.warning {
+	margin:21px 0;
+	padding:5px;
+}
