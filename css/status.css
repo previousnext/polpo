@@ -12,8 +12,7 @@
 }
 
 #statusbar .help,
-#statusbar .warning,
-#statusbar .status
+#statusbar .messages
 {
 	padding:10px 10px 10px 4.45%;
 	margin-bottom:12px;
@@ -37,6 +36,14 @@
 }
 
 
+#statusbar .error {
+	background:#ffc8c8 url(../img/icn_error.png) no-repeat 5px 5px;
+	border:1px solid #c08888;
+	color: #582008;
+}
+
+
+
 #statusbar .status {
 	background:#d6ffc8 url(../img/icn_status.png) no-repeat 5px 5px;
 	border:1px solid #bbd2a9;
@@ -49,6 +56,7 @@
 	background:#fffad7 url(../img/icn_warning.png) no-repeat 5px 5px;
 	border:1px solid #cec3bc;
 	color: #93430c;
+	margin-top:0;
 }
 
 div.warning {
