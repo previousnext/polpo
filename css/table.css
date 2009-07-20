@@ -47,7 +47,9 @@ td {
 *******************************/
 
 
-tr:hover {
+tr:hover,
+table#permissions td.hovered
+{
 	background:#e6f2ff;
 }
 

@@ -10,5 +10,19 @@ $(document).ready(function(){
 		};
 	});
 
-	
+	// Table cell highlighting for permissions
+	$('#permissions td.checkbox').hover(
+	function () {
+		var $tr = $(this).parent();
+		var trindex = $('#permissions tr').index($tr);
+		var tdindex = $('td','#permissions tr:eq('+trindex+')').index(this);
+		$('td:eq('+tdindex+')','#permissions tr').addClass('hovered');		
+   	}, 
+    function () {
+    	var $tr = $(this).parent();
+		var trindex = $('#permissions tr').index($tr);
+		var tdindex = $('td','#permissions tr:eq('+trindex+')').index(this);
+		$('td:eq('+tdindex+')','#permissions tr').removeClass('hovered');
+    });
+    
 });
