@@ -37,7 +37,7 @@
 
 
 #statusbar .error {
-	background:#ffc8c8 url(../img/ico_error.gif) no-repeat 0.7% 5px;
+	background:#ffc8c8 url(../img/ico_error.gif) no-repeat 0.7% center;
 	border:1px solid #c08888;
 	color: #582008;
 }
@@ -45,7 +45,7 @@
 
 
 #statusbar .status {
-	background:#d6ffc8 url(../img/ico_status.gif) no-repeat 0.7% 5px;
+	background:#d6ffc8 url(../img/ico_status.gif) no-repeat 0.7% center;
 	border:1px solid #bbd2a9;
 	color: #1a3e04;
 }
@@ -53,7 +53,7 @@
 
 
 #statusbar .warning, div.warning {	
-	background:#fffad7 url(../img/ico_warning.gif) no-repeat 0.7% 5px;
+	background:#fffad7 url(../img/ico_warning.gif) no-repeat 0.7% center;
 	border:1px solid #cec3bc;
 	color: #93430c;
 	margin-top:0;

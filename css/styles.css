@@ -19,6 +19,16 @@ a:hover {
 	Header Region
 *******************************/
 
+#header {
+	border-bottom:1px solid #e1e1e1;
+}
+
+#pagebar {
+	background:#FFFFFF url(../img/bg_pagebar.png) repeat-x bottom;
+	border-top:1px solid #f6f6f6;
+}
+
+
 #header h1 {
 	position:relative;
 	top:39px;
@@ -52,4 +62,45 @@ a:hover {
 
 .block {
 	margin-bottom:21px;
+}
+
+
+/*******************************
+	Fast Tasks
+*******************************/
+
+#fast-tasks {
+	margin-bottom:21px;
+}
+
+#fast-tasks ul {
+	list-style-type:none;
+}
+
+#fast-tasks li {
+	padding:0 0 12px 30px;
+	line-height:24px;
+	background-image:url(../img/spt_fast-tasks.gif);
+	background-repeat:no-repeat;
+}
+
+#fast-tasks li#fast-task-0 {
+	background-position:left -200px;
+}
+
+#fast-tasks li#fast-task-1 {
+	background-position:left 2px;
+}
+
+#fast-tasks li#fast-task-2 {
+	background-position:left -50px;
+}
+
+#fast-tasks li#fast-task-3 {
+	background-position:left -100px;
+}
+
+#fast-tasks li#fast-task-4 {
+	background-position:left -150px;
+	padding-bottom:0;
 }

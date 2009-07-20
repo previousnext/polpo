@@ -35,6 +35,7 @@
 				<?php print $content; ?>
 			</div>
 			<div id="sidecol">
+				<?php print $fast_tasks; ?>
 				<?php print $sidebar; ?>
 			</div>
 		<?php else: ?>

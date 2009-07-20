@@ -16,20 +16,9 @@ a {
 }
 
 
-
-/*******************************
-	Page Backgrounds
-*******************************/
-
-
 #header {
-	background:#006395;
-	border-bottom:1px solid #e1e1e1;
-	color:#FFF;
-}
-
-#pagebar {
-	background:#FFFFFF url(../img/bg_pagebar.png) repeat-x bottom;
-	border-top:1px solid #f6f6f6;
+	background-color:#006395;
+	background-image:url('../img/gradient.png');
+	color:#FFFFFF;
 }
 
