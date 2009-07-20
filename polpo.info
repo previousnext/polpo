@@ -16,6 +16,9 @@ stylesheets[all][] = css/css3.css
 stylesheets[all][] = css/table.css
 stylesheets[all][] = css/forms.css
 stylesheets[all][] = css/status.css
+stylesheets[all][] = css/menu.css
+
+scripts[] = js/scripts.js
 
 ; Regions
 regions[content] = Content

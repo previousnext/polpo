@@ -1,0 +1,42 @@
+/*******************************
+
+	MENUS
+	
+	CSS for Drupal menus
+
+*******************************/
+
+.block ul.menu,
+ul.menu 
+{
+	padding:0 0 0 0em;
+}
+
+ul.menu li {
+	margin:0;
+	padding:0 0 0.2em 1.2em;
+}
+
+li.leaf,
+li.collapsed,
+li.expanded
+{
+	list-style-image:none;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	background-repeat:no-repeat;
+	background-position:left 4px;
+}
+
+li.leaf {
+	background-image:url(../img/leaf.png); 
+}
+
+li.collapsed {
+	background-image:url(../img/collapsible.png); 
+}
+
+li.expanded {
+	background-image:url(../img/expanded.png); 
+}

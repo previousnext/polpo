@@ -50,3 +50,7 @@ td {
 tr:hover {
 	background:#e6f2ff;
 }
+
+table#permissions td.checkbox:hover {
+	background:#a8d3ff;
+}
