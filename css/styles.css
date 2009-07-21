@@ -16,7 +16,7 @@ a:hover {
 
 
 /*******************************
-	Header Region
+*	Header Region
 *******************************/
 
 #header {
@@ -75,6 +75,7 @@ a:hover {
 
 #fast-tasks ul {
 	list-style-type:none;
+	padding:0;
 }
 
 #fast-tasks li {

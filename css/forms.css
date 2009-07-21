@@ -62,28 +62,76 @@ fieldset .user-admin-picture-radios > .form-item
 	font-weight:bold;
 	background:#006395;
 	color:#FFF;
-	margin-right:12px;
+	margin:10px 12px 10px 0;
 	cursor:pointer;
 }
 
-#edit-submit {
+#edit-submit,
+#edit-save 
+{
 	background:#13a300;
 }
 
-#edit-preview {
+#edit-preview,
+#preview-submit 
+{
 	background:#e1a900;
 }
 
 #edit-reset,
-#edit-delete
+#edit-delete,
+#edit-cancel
 {
 	background:#c00000;
 }
 
+.form-submit:hover {
+	background:#00496e;
+}
 
+#edit-submit:hover,
+#edit-save:hover 
+{
+	background:#0c7100;
+}
+
+#edit-preview:hover,
+#preview-submit:hover 
+{
+	background:#af730a;
+}
+
+#edit-reset:hover,
+#edit-delete:hover,
+#edit-cancel:hover
+{
+	background:#740000;
+}
+
+
+div.teaser-button-wrapper {
+	padding-right:1%;
+}
+
+#edit-teaser-include-wrapper {
+	padding-top:5px;
+}
+
+.teaser-button {
+	padding:5px;
+	cursor:pointer;
+	font-weight:bold;
+	background:#efefef;
+	border:1px solid #999;
+	color:#666;
+}
+
+.teaser-button:hover {
+	background:#ddd;
+}
 
 /*******************************
-	Textareas
+*	Textareas
 *******************************/
 
 
@@ -109,7 +157,7 @@ fieldset .user-admin-picture-radios > .form-item
 
 
 /*******************************
-	Selects and other form items
+*	Selects and other form items
 *******************************/
 
 .form-select {
@@ -118,12 +166,20 @@ fieldset .user-admin-picture-radios > .form-item
 	margin-bottom:4px;
 }
 
-.form-checkboxes, .form-radios {
+.form-checkboxes, 
+.form-radios 
+{
 	margin:10px 0 10px;
 }
 
+.form-radio, 
+.form-checkbox 
+{
+	margin:0 3px 0 0;
+}
+
 /*******************************
-	Other areas
+*	Other areas
 *******************************/
 
 .form-item {
@@ -135,4 +191,31 @@ fieldset .user-admin-picture-radios > .form-item
 	font-weight:bold;
 	margin-bottom:4px;
 	color:#141414;
+}
+
+/*******************************
+*	Interactive
+*******************************/
+
+
+html.js input.form-autocomplete {
+  background-image: url(../img/throbber.gif);
+  background-repeat: no-repeat;
+  background-position: 100% 10px;
+}
+
+html.js input.throbbing {
+  background-position: 100% -70px;
+}
+
+
+.form-item input.error, 
+.form-item textarea.error, 
+.form-item select.error 
+{
+	border:2px solid #ff535b;
+}
+
+tr.draggable input.form-text {
+	width:95% !important;
 }

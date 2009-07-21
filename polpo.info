@@ -17,6 +17,7 @@ stylesheets[all][] = css/table.css
 stylesheets[all][] = css/forms.css
 stylesheets[all][] = css/status.css
 stylesheets[all][] = css/menu.css
+stylesheets[all][] = css/modules.css
 
 scripts[] = js/scripts.js
 

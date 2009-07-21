@@ -49,6 +49,10 @@ h4 {
 	margin-bottom:6px;
 }
 
+p {
+	margin-bottom:1em;
+}
+
 .breadcrumb {
 	font-size:0.857em;
 }
@@ -56,4 +60,10 @@ h4 {
 .description {
 	font-size:1.0em !important;
 	color:#666;
+}
+
+ul,
+ol
+{
+	padding-left: 1.3em;
 }

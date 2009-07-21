@@ -11,7 +11,8 @@
 #statusbar .messages,
 fieldset,
 input.form-text,
-input.form-submit
+input.form-submit,
+.teaser-button
 {
 	border-radius:4px;
 	-moz-border-radius:4px;
