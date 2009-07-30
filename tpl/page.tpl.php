@@ -6,6 +6,10 @@
   <?php print $head; ?>
   <?php print $styles; ?>
   <?php print $scripts; ?>
+  <!--[if lte IE 6]><link type="text/css" rel="stylesheet" media="all" href="<?php print $base_path.$directory; ?>/css/ie6.css" /><![endif]-->
+  <!--[if IE 7]><link type="text/css" rel="stylesheet" media="all" href="<?php print $base_path.$directory; ?>/css/ie7.css" /><![endif]-->
+  <!--[if gte IE 7]><link type="text/css" rel="stylesheet" media="all" href="<?php print $base_path.$directory; ?>/css/ie8.css" /><![endif]-->
+
 </head>
 <body>
 	
@@ -30,7 +34,7 @@
 	<?php endif; ?>
 	
 	<div id="content">
-			<?php if ($sidebar): ?>
+			<?php if ($sidebar||$fast_tasks): ?>
 			<div id="maincol">
 				<?php print $content; ?>
 			</div>
@@ -47,7 +51,12 @@
 			</div>
 	
 	</div>
-	
+    <!--[if lte IE 6]>
+    	<script type="text/javascript" src="<?php print $base_path.$directory; ?>/js/supersleight.plugin.js"></script>
+    	<script type="text/javascript">
+    	$('body').supersleight({shim: '<?php print $base_path.$directory; ?>/img/x.gif'});
+    	</script>
+    <![endif]-->	
 <?php print $closure; ?>
 </body>
 </html>

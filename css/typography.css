@@ -13,7 +13,7 @@
 
 
 body {
-	font-family:Myriad, Myriad Pro, Arial, Sans-serif;
+	font-family:"Myriad", "Myriad Pro", "Segoe UI", "Trebuchet MS", Arial, Sans-serif;
 	font-size:87.5%; 
 	line-height:1.5em;
 }
@@ -49,7 +49,7 @@ h4 {
 	margin-bottom:6px;
 }
 
-p {
+p, ul, ol {
 	margin-bottom:1em;
 }
 

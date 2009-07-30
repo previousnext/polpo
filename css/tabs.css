@@ -52,6 +52,7 @@ ul.primary li.active a {
 
 ul.tabs li a:hover {
 	background-color:#515151;
+	text-decoration:none;
 }
 
 ul.tabs li.active a:hover {

@@ -2,11 +2,28 @@
 *
 *	MODULE COMPATIBILITY
 *	
-*	This stylesheet controls compatibility for the most common
-*	3rd party modules.
+*	This stylesheet controls compatibility for the most common modules.
 *	
 *******************************/
 
+
+/*******************************
+*	CONTENT
+*******************************/
+
+#node-admin-buttons input.form-submit {
+	margin-top:0;
+}
+
+/*******************************
+*	USER
+*******************************/
+
+
+
+#user-login input.form-text {
+	width:400px !important;
+}
 
 
 
