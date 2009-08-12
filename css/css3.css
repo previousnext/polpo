@@ -12,15 +12,15 @@
 fieldset,
 input.form-text,
 input.form-submit,
-.teaser-button
+.teaser-button,
+textarea.form-textarea
 {
 	border-radius:4px;
 	-moz-border-radius:4px;
 	-webkit-border-radius:4px;
 }
 
-textarea.form-textarea 
-{
+.resizable-textarea .form-textarea {
 	border-top-right-radius:4px;
 	-moz-border-radius-topright:4px;
 	-webkit-border-top-right-radius:4px;
