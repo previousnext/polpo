@@ -21,7 +21,7 @@
 	<?php if ($title): ?> 
 	<div id="pagebar">
 		<?php print $breadcrumb; ?>
-		<h2><?php print $title; ?></h2>
+		<h1><?php print $title; ?></h1>
 		<?php print $tabs; ?>
 	</div>
 	<?php endif; ?>
