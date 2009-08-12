@@ -20,7 +20,7 @@ textarea.form-textarea
 	-webkit-border-radius:4px;
 }
 
-.resizable-textarea .form-textarea {
+.resizable-textarea textarea.form-textarea {
 	border-top-right-radius:4px;
 	-moz-border-radius-topright:4px;
 	-webkit-border-top-right-radius:4px;
