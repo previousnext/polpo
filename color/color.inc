@@ -2,7 +2,7 @@
 
 $info = array(
   'schemes' => array(
-    '#FFFFFF,#0468d1,#006395,#006395,#FFFFFF' => t('Default'),
+    '#FFFFFF,#0468d1,#006395,#33a3db,#FFFFFF' => t('Default'),
   ),
   'copy' => array(
     'img/gradient.png',
