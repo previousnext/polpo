@@ -149,7 +149,7 @@ div.teaser-button-wrapper {
 	width:98%;
 }
 
-.form-textarea {
+textarea.form-textarea {
 	border:1px solid #999;
 	font-size: 1.286em;
 	padding:4px;
