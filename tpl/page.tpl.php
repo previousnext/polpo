@@ -48,6 +48,7 @@
 
 			<div id="footer">
 				<?php print $footer; ?>
+				<p class="author-message">Polpo is a Drupal admin theme by <a href="http://www.previousnext.com.au/" title="Visit homepage">PreviousNext</a>.</p>
 			</div>
 	
 	</div>

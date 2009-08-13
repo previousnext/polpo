@@ -57,6 +57,25 @@ a:hover {
 
 
 /*******************************
+*	Footer Region
+*******************************/
+
+p.author-message {
+	padding-top:2em;
+	color:#ccc;
+	font-size:0.857em;
+}
+
+p.author-message a {
+	text-decoration:underline;
+	color:#bbb;
+}
+
+p.author-message a:hover {
+	color:#333;
+}
+
+/*******************************
 	Blocks
 *******************************/
 

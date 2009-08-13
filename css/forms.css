@@ -13,7 +13,7 @@
 
 fieldset {
 	background:#f1f1f1;
-	margin:20px 0 41px;
+	margin:40px 0 41px;
 	padding:9px;
 	position:relative;
 }
@@ -38,7 +38,14 @@ html.js fieldset.collapsible legend a {
 	padding:0 12px 0 0;
 }
 
+fieldset.input-selector {
+	margin-top:20px;
+}
 
+fieldset.input-selector legend {
+	font-weight:normal;
+	font-size:1.0em;
+}
 
 fieldset .form-item:nth-child(2) {
 	margin-top:0;
@@ -165,8 +172,8 @@ textarea.form-textarea {
 *******************************/
 
 .form-select {
-	font-size: 1.286em;
-	margin-bottom:4px;
+	font-size:1.0em;
+	margin:0 0 4px;
 }
 
 .form-checkboxes, 

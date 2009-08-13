@@ -10,6 +10,13 @@ $(document).ready(function(){
 		};
 	});
 
+	// Restyles "Input Format" fieldsets
+	$("legend").each(function() {
+		if ($(this).children().text() == "Input format") {
+			$(this).parent().addClass("input-selector");
+		}
+	});
+
 	// Table cell highlighting for permissions
 	$('#permissions td.checkbox').hover(
 	function () {
