@@ -1,7 +1,9 @@
 <?php
-
+/*
 function _polpo_fast_tasks() {
   	
+  	global $user;
+
     $menu_tree[] = array('href' => 'node/add', 'title' => t('Create Content'));
     $menu_tree[] = array('href' => 'admin/content/node', 'title' => t('Manage Content'));
     $menu_tree[] = array('href' => 'admin/user/user', 'title' => t('Manage Users'));
@@ -24,13 +26,29 @@ function _polpo_fast_tasks() {
   	return $output;
 }
 
-
+*/
 function polpo_preprocess_page(&$vars) {
-	if (theme_get_setting('fast_tasks')) {
+/*	if (theme_get_setting('fast_tasks')) {
 		$vars['fast_tasks'] = _polpo_fast_tasks(); 
 	}
+*/
 	// Hook into color.module
+	
+	
+	
+	
 	if (module_exists('color')) {
 		_color_page_alter($vars);
 	}
+}
+
+/*
+function polpo_help($path, $arg) {
+	switch ($path) {
+		case 'admin':
+			$output = t('this is polpo help text');
+			return $output;
+	}
+
+*/
 }
