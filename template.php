@@ -50,5 +50,6 @@ function polpo_help($path, $arg) {
 			return $output;
 	}
 
-*/
+
 }
+*/
