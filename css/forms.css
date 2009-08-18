@@ -176,6 +176,16 @@ textarea.form-textarea {
 	margin:0 0 4px;
 }
 
+.form-select option {
+	padding:0 0 0 0.5em;
+	font-weight:normal;
+}
+
+.form-select optgroup {
+	font-weight:bold;
+	margin:0 0 0.5em;
+}
+
 .form-checkboxes, 
 .form-radios 
 {
