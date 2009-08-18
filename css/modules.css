@@ -92,6 +92,10 @@ div.changed {
 	margin-bottom:0;
 }
 
+.views-category .changed {
+	border:none;
+}
+
 
 /*******************************
 *	CCK

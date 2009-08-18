@@ -67,7 +67,8 @@
 
 div.status, 
 tr.status,
-tr.ok
+tr.ok,
+div.hilited
 {
 	background-color:#d6ffc8 !important;
 	color: #1a3e04;
@@ -75,7 +76,8 @@ tr.ok
 
 div.warning,
 tr.warning,
-tr.drag-previous
+tr.drag-previous,
+div.changed
 {
 	background-color:#fffad7 !important;
 	color: #93430c;
