@@ -37,6 +37,10 @@ tr.odd {
 	background:#FFF;
 }
 
+td.region {
+	font-weight:bold;
+}
+
 td {
 	padding:8px 5px;
 }
