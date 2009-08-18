@@ -114,3 +114,11 @@ div.changed {
 {
 	font-size:1em;
 }
+
+.link-field-subrow {
+	width:98%;
+}
+
+.link-field-subrow input.form-text {
+	width:95%;
+}
