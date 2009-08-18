@@ -1,5 +1,5 @@
 <?php
-/*
+
 function _polpo_fast_tasks() {
   	
   	global $user;
@@ -26,12 +26,12 @@ function _polpo_fast_tasks() {
   	return $output;
 }
 
-*/
+
 function polpo_preprocess_page(&$vars) {
-/*	if (theme_get_setting('fast_tasks')) {
+	if (theme_get_setting('fast_tasks')) {
 		$vars['fast_tasks'] = _polpo_fast_tasks(); 
 	}
-*/
+
 	// Hook into color.module
 	
 	
