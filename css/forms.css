@@ -19,7 +19,7 @@ fieldset {
 }
 
 legend {
-	margin:-20px 0 0 -6px;
+	margin:-20px 0 0 -8px;
 	position: absolute;
 	top:-2px;
 }
@@ -87,7 +87,8 @@ fieldset .user-admin-picture-radios > .form-item
 
 #edit-reset,
 #edit-delete,
-#edit-cancel
+#edit-cancel,
+#edit-clear
 {
 	background:#c00000;
 }
@@ -111,6 +112,7 @@ fieldset .user-admin-picture-radios > .form-item
 #edit-reset:hover,
 #edit-delete:hover,
 #edit-cancel:hover
+#edit-clear:hover
 {
 	background:#740000;
 }
