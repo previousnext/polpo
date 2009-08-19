@@ -34,7 +34,7 @@ tr.even {
 
 
 tr.odd {
-	background:#FFF;
+	background:none;
 }
 
 td.region {

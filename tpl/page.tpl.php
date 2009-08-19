@@ -14,7 +14,7 @@
 <body>
 	
 	<div id="header">
-		<?php if ($logo): ?><a href="/admin"><img src="<?php print $logo; ?>" alt="" id="logo" /></a><?php endif; ?>
+		<?php if ($logo): ?><a href="<?php print $base_path ?>"><img src="<?php print $logo; ?>" alt="" id="logo" /></a><?php endif; ?>
 		<h1<?php if ($logo): ?> class="break"<?php endif; ?>><?php print $site_name; ?></h1>
 	</div>
 	
