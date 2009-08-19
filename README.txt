@@ -1,4 +1,3 @@
-
 About Polpo
 -----------
 
@@ -36,5 +35,4 @@ Resources
 ---------
 Home page: http://www.polpo.com.au
 Try out a demonstration: http://demo.polpo.com.au (Username: demo / Password: demo)
-Look at screenshots: http://www.polpo.com.au/screenshots
 
