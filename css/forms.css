@@ -143,24 +143,23 @@ div.teaser-button-wrapper {
 
 
 
-.form-text {
+input.form-text {
 	color:#333;
 	border:1px solid #999;
-	width:98% !important;
 	margin-bottom:4px;
 	font-size: 1.714em;
 	padding:4px;
 }
 
 .resizable-textarea {
-	width:98%;
+	width:95%;
 }
 
 textarea.form-textarea {
 	border:1px solid #999;
 	font-size: 1.286em;
 	padding:4px;
-	width:98%;
+	width:95%;
 }
 
 .resizable-textarea .form-textarea {
