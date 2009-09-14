@@ -1,7 +1,7 @@
 name = Polpo
 description = A Drupal Admin Theme
 screenshot = screenshot.png
-version = 6.x-0.9.1-beta
+version = 6.x-1.0.1
 core = 6.x
 engine = phptemplate
 
