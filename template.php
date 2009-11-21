@@ -32,9 +32,15 @@ function polpo_preprocess_page(&$vars) {
 		$vars['fast_tasks'] = _polpo_fast_tasks(); 
 	}
 
+	if (theme_get_setting('title_text')) {
+		if (theme_get_setting('title_text_custom')) {
+			$vars['title_text'] = theme_get_setting('title_text_custom');
+		} else {
+			$vars['title_text'] = variable_get('site_name', 'drupal');
+		}
+	}
+
 	// Hook into color.module
-	
-	
 	
 	
 	if (module_exists('color')) {

@@ -12,12 +12,12 @@
 
 </head>
 <body>
-	
+	<?php if ($logo || $title_text): ?>
 	<div id="header">
 		<?php if ($logo): ?><a href="<?php print $base_path ?>"><img src="<?php print $logo; ?>" alt="" id="logo" /></a><?php endif; ?>
-		<h1<?php if ($logo): ?> class="break"<?php endif; ?>><?php print $site_name; ?></h1>
+		<?php if ($title_text): ?><h1<?php if ($logo): ?> class="break"<?php endif; ?>><?php print $title_text; ?></h1><?php endif; ?>
 	</div>
-	
+	<?php endif; ?>
 	<?php if ($title): ?> 
 	<div id="pagebar">
 		<?php print $breadcrumb; ?>
