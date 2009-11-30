@@ -11,7 +11,7 @@
   <!--[if gte IE 7]><link type="text/css" rel="stylesheet" media="all" href="<?php print $base_path.$directory; ?>/css/ie8.css" /><![endif]-->
 
 </head>
-<body>
+<body id="polpo">
 	<?php if ($logo || $title_text): ?>
 	<div id="header">
 		<?php if ($logo): ?><a href="<?php print $base_path ?>"><img src="<?php print $logo; ?>" alt="" id="logo" /></a><?php endif; ?>

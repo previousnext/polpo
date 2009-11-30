@@ -6,12 +6,8 @@
 
 *******************************/
 
-body {
+body#polpo {
 	min-width:960px;
-}
-
-iframe body {
-	min-width:inherit;
 }
 
 #header {
