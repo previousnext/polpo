@@ -10,6 +10,10 @@ body {
 	min-width:960px;
 }
 
+iframe body {
+	min-width:inherit;
+}
+
 #header {
 	padding:0 6%;
 	height:100px;
