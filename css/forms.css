@@ -29,12 +29,12 @@ html.js fieldset.collapsed {
 }
 
 html.js fieldset.collapsed legend a {
-	background:transparent url(../img/collapsible.png) no-repeat scroll right center !important;
+	background:transparent url(../img/menu-collapsed.gif) no-repeat scroll right center !important;
 }
 
 
 html.js fieldset.collapsible legend a {
-	background:transparent url(../img/expanded.png) no-repeat scroll right center;
+	background:transparent url(../img/menu-expanded.gif) no-repeat scroll right center;
 	padding:0 12px 0 0;
 }
 

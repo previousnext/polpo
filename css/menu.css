@@ -30,13 +30,13 @@ li.expanded
 }
 
 li.leaf {
-	background-image:url(../img/leaf.png); 
+	background-image:url(../img/menu-leaf.gif); 
 }
 
 li.collapsed {
-	background-image:url(../img/collapsible.png); 
+	background-image:url(../img/menu-collapsed.gif); 
 }
 
 li.expanded {
-	background-image:url(../img/expanded.png); 
+	background-image:url(../img/menu-expanded.gif); 
 }
