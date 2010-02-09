@@ -40,3 +40,11 @@ li.collapsed {
 li.expanded {
 	background-image:url(../img/menu-expanded.gif); 
 }
+
+
+dl.admin-list dt,
+dl.node-type-list dt {
+	padding:11px 0 0 30px;
+  	margin: 0 0 6px;
+  	background: url(../img/list-item.png) no-repeat 0 11px;
+}
