@@ -13,19 +13,18 @@
 
 fieldset {
 	background:#f1f1f1;
-	margin:40px 0 41px;
+	margin:0 0 20px;
 	padding:9px;
 	position:relative;
 }
 
 legend {
-	margin:-20px 0 0 -8px;
-	position: absolute;
-	top:-2px;
+	margin:0;
 }
 
 html.js fieldset.collapsed {
-	background:none;
+	margin:0 0 20px;
+	padding:4px 9px;
 }
 
 html.js fieldset.collapsed legend a {
