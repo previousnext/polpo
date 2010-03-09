@@ -235,6 +235,10 @@ fieldset.input-selector {
 	width:60%;
 }
 
+tr fieldset.input-selector {
+	top:0;
+}
+
 fieldset.input-selector legend {
 	font-weight:normal;
 	font-size:1.0em;
