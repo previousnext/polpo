@@ -54,7 +54,9 @@ a:hover {
 	margin:8px 0 10px;
 }
 
-
+#footer {
+	background:none !important;
+}
 
 /*******************************
 *	Footer Region
