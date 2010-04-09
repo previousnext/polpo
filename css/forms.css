@@ -135,7 +135,9 @@ div.teaser-button-wrapper {
 *	Textareas
 *******************************/
 
-
+.node-form .text {
+	width:95%;
+}
 
 input.form-text {
 	color:#333;
@@ -230,8 +232,6 @@ tr.draggable input.form-text {
 *******************************/
 
 fieldset.input-selector {
-	top:-20px;
-	position:relative;
 	width:60%;
 }
 
