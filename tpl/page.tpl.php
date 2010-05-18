@@ -34,13 +34,13 @@
 	<?php endif; ?>
 	
 	<div id="content">
-			<?php if ($sidebar||$fast_tasks): ?>
+			<?php if ($right||$fast_tasks): ?>
 			<div id="maincol">
 				<?php print $content; ?>
 			</div>
 			<div id="sidecol">
 				<?php print $fast_tasks; ?>
-				<?php print $sidebar; ?>
+				<?php print $right; ?>
 			</div>
 		<?php else: ?>
 			<?php print $content; ?>
