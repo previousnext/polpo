@@ -23,7 +23,8 @@ scripts[] = js/scripts.js
 
 ; Regions
 regions[content] = Content
-regions[sidebar] = Sidebar
+regions[right] = Right Sidebar
+regions[left] = Right Sidebar
 regions[footer] = Footer
 
 ; Settings
