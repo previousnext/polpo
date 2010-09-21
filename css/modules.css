@@ -126,3 +126,16 @@ div.changed {
 .link-field-subrow input.form-text {
 	width:95%;
 }
+
+
+/*******************************
+*	Content management filter
+*******************************/
+
+#node-admin-filter dl.multiselect div.form-item {
+  margin:10px 0 18px;
+}
+
+#node-admin-filter dl.multiselect dd.b input {
+  margin-top:-10px;
+}
