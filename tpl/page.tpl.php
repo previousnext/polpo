@@ -12,10 +12,12 @@
 
 </head>
 <body id="polpo">
-	<?php if ($logo || $title_text): ?>
+	<?php if ($logo || isset($title_text)): ?>
 	<div id="header">
 		<?php if ($logo): ?><a href="<?php print $base_path ?>"><img src="<?php print $logo; ?>" alt="" id="logo" /></a><?php endif; ?>
-		<?php if ($title_text): ?><h1<?php if ($logo): ?> class="break"<?php endif; ?>><?php print $title_text; ?></h1><?php endif; ?>
+		<?php if (isset($title_text)): ?>
+		  <h1<?php if ($logo): ?> class="break"<?php endif; ?>><?php print $title_text; ?></h1>
+		<?php endif; ?>
 	</div>
 	<?php endif; ?>
 	<?php if ($title): ?> 
@@ -34,13 +36,18 @@
 	<?php endif; ?>
 	
 	<div id="content">
-			<?php if ($right||$fast_tasks): ?>
+			<?php if ($right || isset($fast_tasks)): ?>
 			<div id="maincol">
 				<?php print $content; ?>
 			</div>
 			<div id="sidecol">
+			 <?php if (isset($fast_tasks)): ?>
 				<?php print $fast_tasks; ?>
+		   <?php endif; ?>
+		   
+		   <?php if ($right): ?>
 				<?php print $right; ?>
+		   <?php endif; ?>
 			</div>
 		<?php else: ?>
 			<?php print $content; ?>
