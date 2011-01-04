@@ -46,6 +46,9 @@ td {
 	vertical-align:top;
 }
 
+td div.description {
+	white-space:normal;
+}
 
 /*******************************
 	Behavioural Styles
